@@ -10,6 +10,9 @@ public class Condcional13 {
 
         if (y==0)
             System.out.println(" Error 404 ");
-        else (x/y)
+        else {
+            double resultado = x/y;
+            System.out.println(" El resultado de la división es "+resultado);
+        }
     }
 }
